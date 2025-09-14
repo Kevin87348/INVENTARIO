@@ -17,6 +17,19 @@
     <name>inventario_compra</name>
     <description>Proyecto de Inventario y Compras - Veterinaria</description>
 
+    <url/>
+        <licenses>
+            <license/>
+        </licenses>
+        <developers>
+            <developer/>
+        </developers>
+        <scm>
+            <connection/>
+            <developerConnection/>
+            <tag/>
+    <url/>
+        </scm>
     <properties>
         <java.version>21</java.version>
     </properties>
@@ -32,6 +45,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- Seguridad -->
@@ -51,8 +77,16 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.2.0</version>
+            <version>2.6.0</version>
         </dependency>
+
+        <!-- DEPENDENCIAS ADICIONALES -->
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+        <!-- FINAL DE DEPENDENCIAS ADICIONALES-->
 
         <!-- Test -->
         <dependency>
