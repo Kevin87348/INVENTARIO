@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed57c6a3-041d-4526-bddf-741bd35de573" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed57c6a3-041d-4526-bddf-741bd35de573" name="Changes" comment="&quot;para descargar cambios de la main&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +51,11 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Kevin Alexander/Desktop/INVENTARIO",
     "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
+    ]
   }
 }]]></component>
   <component name="TaskManager">
@@ -79,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757818807724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;para descargar cambios de la main&quot;">
+      <option name="closed" value="true" />
+      <created>1757885887657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757885887657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +110,7 @@
     </ignored-roots>
     <MESSAGE value="&quot;Primer commit&quot;" />
     <MESSAGE value="&quot;Commit m&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Commit m&quot;" />
+    <MESSAGE value="&quot;para descargar cambios de la main&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;para descargar cambios de la main&quot;" />
   </component>
 </project>
