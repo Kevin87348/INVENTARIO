@@ -1,4 +1,22 @@
 package dtos.movimientoDetalle;
 
-public class MovimientoDetalle_Modificar {
+import lombok.Getter;
+import lombok.Setter;
+
+import java.io.Serializable;
+
+@Getter
+@Setter
+public class MovimientoDetalle_Modificar implements Serializable {
+    private Integer id;
+
+    private double cantidad;
+
+    private double costoUnitario;
+
+    private Integer movimientoInventarioId;
+
+    private Integer medicamentoId;
+
+    private Integer lotes_medicamentosId;
 }

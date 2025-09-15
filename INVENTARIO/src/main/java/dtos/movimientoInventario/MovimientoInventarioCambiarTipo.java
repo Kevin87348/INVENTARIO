@@ -1,4 +1,14 @@
 package dtos.movimientoInventario;
 
-public class MovimientoInventarioCambiarTipo {
+import lombok.Getter;
+import lombok.Setter;
+
+import java.io.Serializable;
+
+@Getter
+@Setter
+public class MovimientoInventarioCambiarTipo implements Serializable {
+    private Integer id;
+
+    private String tipo;
 }
