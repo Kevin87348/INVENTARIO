@@ -1,6 +1,7 @@
 package Modelos;
 
 import jakarta.persistence.*;
+import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -21,4 +22,7 @@ public class Almacen {
     private String ubicacion;
 
     private Boolean activo;
+
+    @OneToMany(mappedBy = "almacen")
+    private List<Inventario> inventario;
 }
