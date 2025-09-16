@@ -2,7 +2,7 @@ package INVENTARIO.servicios.implementaciones;
 
 import INVENTARIO.modelos.MovimientoDetalle;
 import INVENTARIO.repositorios.IMovimientoDetalleRepository;
-import INVENTARIO.Servicios.interfaces.IMovimientoDetalleService;
+import INVENTARIO.servicios.interfaces.IMovimientoDetalleService;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Guardar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Modificar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Salida;
@@ -55,7 +55,7 @@ public class MovimientoDetalleService implements IMovimientoDetalleService{
 
     @Override
     public List<MovimientoDetalle_Salida> obtenerPorMovimientoInventarioId(Integer id) {
-        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByMovimientoInventarioId(id);
+        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByMovimientoInventario_Id(id);
         return movimientoDetalles.stream()
                 .map(movimientoDetalle -> modelMapper.map(movimientoDetalle, MovimientoDetalle_Salida.class))
                 .collect(Collectors.toList());
@@ -63,7 +63,7 @@ public class MovimientoDetalleService implements IMovimientoDetalleService{
 
     @Override
     public List<MovimientoDetalle_Salida> obtenerPorMedicamentoId(Integer id) {
-        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByMedicamentoId(id);
+        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByMedicamento_Id(id);
         return movimientoDetalles.stream()
                 .map(movimientoDetalle -> modelMapper.map(movimientoDetalle, MovimientoDetalle_Salida.class))
                 .collect(Collectors.toList());
@@ -71,7 +71,7 @@ public class MovimientoDetalleService implements IMovimientoDetalleService{
 
     @Override
     public List<MovimientoDetalle_Salida> obtenerPorLoteMedicamento(Integer id){
-        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByLoteMedicamentoId(id);
+        List<MovimientoDetalle> movimientoDetalles = movimientoDetalleRepository.findByLotesMedicamentos_Id(id);
         return movimientoDetalles.stream()
                 .map(movimientoDetalle -> modelMapper.map(movimientoDetalle, MovimientoDetalle_Salida.class))
                 .collect(Collectors.toList());

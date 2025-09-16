@@ -2,7 +2,7 @@ package INVENTARIO.servicios.implementaciones;
 
 import INVENTARIO.modelos.MovimientoInventario;
 import INVENTARIO.repositorios.IMovimientoInventarioRepository;
-import INVENTARIO.Servicios.interfaces.IMovimientoInventarioService;
+import INVENTARIO.servicios.interfaces.IMovimientoInventarioService;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventarioCambiarTipo;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Guardar;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Modificar;
@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -21,6 +22,7 @@ import java.util.stream.Collectors;
 
 @Getter
 @Setter
+@Service
 public class MovimientoInventarioService implements IMovimientoInventarioService {
     @Autowired
     private IMovimientoInventarioRepository movimientoInventarioRepository;

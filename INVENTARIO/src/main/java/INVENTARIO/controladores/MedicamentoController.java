@@ -4,7 +4,7 @@ package INVENTARIO.controladores;
 import INVENTARIO.dtos.medicamento.MedicamentoGuardar;
 import INVENTARIO.dtos.medicamento.MedicamentoModificar;
 import INVENTARIO.dtos.medicamento.MedicamentoSalida;
-import INVENTARIO.Servicios.interfaces.IMedicamentoService;
+import INVENTARIO.servicios.interfaces.IMedicamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
