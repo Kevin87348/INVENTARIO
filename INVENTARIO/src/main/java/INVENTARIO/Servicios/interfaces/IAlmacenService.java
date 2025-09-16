@@ -1,4 +1,4 @@
-package INVENTARIO.Servicios.interfaces;
+package INVENTARIO.servicios.interfaces;
 
 import INVENTARIO.dtos.Almacen.Almacen_Actualizar;
 import INVENTARIO.dtos.Almacen.Almacen_CambiarEstado;

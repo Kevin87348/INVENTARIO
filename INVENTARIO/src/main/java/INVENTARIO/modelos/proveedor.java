@@ -1,4 +1,4 @@
-package INVENTARIO.Modelos;
+package INVENTARIO.modelos;
 
 import jakarta.persistence.*;
 import lombok.Getter;

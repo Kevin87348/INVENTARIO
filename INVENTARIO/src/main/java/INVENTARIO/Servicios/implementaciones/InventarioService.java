@@ -1,7 +1,7 @@
-package INVENTARIO.Servicios.implementaciones;
+package INVENTARIO.servicios.implementaciones;
 
-import INVENTARIO.Modelos.Inventario;
-import INVENTARIO.Repositorios.IInventarioRepository;
+import INVENTARIO.modelos.Inventario;
+import INVENTARIO.repositorios.IInventarioRepository;
 import INVENTARIO.Servicios.interfaces.IInventarioService;
 import INVENTARIO.dtos.inventario.Inventario_Guardar;
 import INVENTARIO.dtos.inventario.Inventario_Modificar;

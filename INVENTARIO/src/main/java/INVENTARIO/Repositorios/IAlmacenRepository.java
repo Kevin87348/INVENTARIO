@@ -1,6 +1,6 @@
-package INVENTARIO.Repositorios;
+package INVENTARIO.repositorios;
 
-import INVENTARIO.Modelos.Almacen;
+import INVENTARIO.modelos.Almacen;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IAlmacenRepository extends JpaRepository<Almacen, Integer> {

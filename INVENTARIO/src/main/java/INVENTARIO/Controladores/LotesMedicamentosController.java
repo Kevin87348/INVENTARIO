@@ -1,4 +1,4 @@
-package INVENTARIO.Controladores;
+package INVENTARIO.controladores;
 
 import INVENTARIO.Servicios.interfaces.ILotesMedicamentoService;
 import INVENTARIO.dtos.LotesMedicamentos.LoteMedicamento_Salida;

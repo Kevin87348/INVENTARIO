@@ -1,4 +1,4 @@
-package INVENTARIO.Controladores;
+package INVENTARIO.controladores;
 
 import INVENTARIO.Servicios.interfaces.IAlmacenService;
 import INVENTARIO.dtos.Almacen.Almacen_Guardar;

@@ -1,4 +1,4 @@
-package INVENTARIO.Controladores;
+package INVENTARIO.controladores;
 
 
 import INVENTARIO.dtos.medicamento.MedicamentoGuardar;

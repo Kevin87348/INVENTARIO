@@ -1,6 +1,6 @@
-package INVENTARIO.Repositorios;
+package INVENTARIO.repositorios;
 
-import INVENTARIO.Modelos.Dispensa;
+import INVENTARIO.modelos.Dispensa;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

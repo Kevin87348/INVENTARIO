@@ -1,4 +1,4 @@
-package INVENTARIO.Controladores;
+package INVENTARIO.controladores;
 
 import INVENTARIO.Servicios.interfaces.IInventarioService;
 import INVENTARIO.dtos.inventario.Inventario_Guardar;

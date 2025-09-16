@@ -1,11 +1,11 @@
-package INVENTARIO.Servicios.implementaciones;
+package INVENTARIO.servicios.implementaciones;
 
 
 import INVENTARIO.dtos.medicamento.MedicamentoGuardar;
 import INVENTARIO.dtos.medicamento.MedicamentoModificar;
 import INVENTARIO.dtos.medicamento.MedicamentoSalida;
-import INVENTARIO.Modelos.medicamento;
-import INVENTARIO.Repositorios.IMedicamentoRepository;
+import INVENTARIO.modelos.medicamento;
+import INVENTARIO.repositorios.IMedicamentoRepository;
 import INVENTARIO.Servicios.interfaces.IMedicamentoService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;

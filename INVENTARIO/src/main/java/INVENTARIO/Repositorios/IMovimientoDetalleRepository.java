@@ -1,6 +1,6 @@
-package INVENTARIO.Repositorios;
+package INVENTARIO.repositorios;
 
-import INVENTARIO.Modelos.MovimientoDetalle;
+import INVENTARIO.modelos.MovimientoDetalle;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

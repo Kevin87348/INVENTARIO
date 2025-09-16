@@ -1,7 +1,7 @@
-package INVENTARIO.Servicios.implementaciones;
+package INVENTARIO.servicios.implementaciones;
 
-import INVENTARIO.Modelos.MovimientoDetalle;
-import INVENTARIO.Repositorios.IMovimientoDetalleRepository;
+import INVENTARIO.modelos.MovimientoDetalle;
+import INVENTARIO.repositorios.IMovimientoDetalleRepository;
 import INVENTARIO.Servicios.interfaces.IMovimientoDetalleService;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Guardar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Modificar;

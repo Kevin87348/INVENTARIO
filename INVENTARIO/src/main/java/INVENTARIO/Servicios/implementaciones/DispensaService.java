@@ -1,10 +1,10 @@
-package INVENTARIO.Servicios.implementaciones;
+package INVENTARIO.servicios.implementaciones;
 
 import INVENTARIO.dtos.Dispensa.Dispensa_Actualizar;
 import INVENTARIO.dtos.Dispensa.Dispensa_Guardar;
 import INVENTARIO.dtos.Dispensa.Dispensa_Salida;
-import INVENTARIO.Modelos.Dispensa;
-import INVENTARIO.Repositorios.IDispensaRepository;
+import INVENTARIO.modelos.Dispensa;
+import INVENTARIO.repositorios.IDispensaRepository;
 import INVENTARIO.Servicios.interfaces.IDispensaService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
