@@ -1,4 +1,4 @@
-package INVENTARIO.servicios.interfaces;
+package INVENTARIO.Servicios.interfaces;
 
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Guardar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Modificar;

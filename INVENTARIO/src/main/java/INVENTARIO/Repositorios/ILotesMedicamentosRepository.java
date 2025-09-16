@@ -1,6 +1,6 @@
-package INVENTARIO.repositorios;
+package INVENTARIO.Repositorios;
 
-import INVENTARIO.modelos.Lotes_medicamentos;
+import INVENTARIO.Modelos.Lotes_medicamentos;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

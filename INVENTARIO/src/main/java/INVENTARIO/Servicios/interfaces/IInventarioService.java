@@ -1,4 +1,4 @@
-package INVENTARIO.servicios.interfaces;
+package INVENTARIO.Servicios.interfaces;
 
 import INVENTARIO.dtos.inventario.Inventario_Guardar;
 import INVENTARIO.dtos.inventario.Inventario_Modificar;

@@ -1,4 +1,4 @@
-package INVENTARIO.servicios.interfaces;
+package INVENTARIO.Servicios.interfaces;
 
 import INVENTARIO.dtos.Dispensa.Dispensa_Actualizar;
 import INVENTARIO.dtos.Dispensa.Dispensa_Guardar;

@@ -1,6 +1,6 @@
-package INVENTARIO.controladores;
+package INVENTARIO.Controladores;
 
-import INVENTARIO.servicios.interfaces.IMovimientoDetalleService;
+import INVENTARIO.Servicios.interfaces.IMovimientoDetalleService;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Guardar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Modificar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Salida;
