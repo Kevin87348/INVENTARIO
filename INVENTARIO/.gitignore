@@ -14,9 +14,9 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/      #Ignora toda la carpeta .idea
 *.iws
-*.iml
+*.iml       #Ignora archivos de módulo
 *.ipr
 
 ### NetBeans ###
@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+.idea/workspace.xml       # Ignora específicamente workspace.xml (por si .idea ya fue rastreada)
+ 
+ 

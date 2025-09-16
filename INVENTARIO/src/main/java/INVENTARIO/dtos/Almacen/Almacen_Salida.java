@@ -8,7 +8,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 public class Almacen_Salida implements Serializable {
-    private Short id;
+    private Integer id;
     private String nombre;
     private String ubicacion;
     private Boolean activo;

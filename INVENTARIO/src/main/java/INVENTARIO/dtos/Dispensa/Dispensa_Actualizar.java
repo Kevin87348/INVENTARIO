@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 public class Dispensa_Actualizar implements Serializable {
-    private Short almacenId;
+    private Integer almacenId;
     private Integer loteId;
     private BigDecimal cantidad;
     private LocalDateTime fecha;

@@ -10,9 +10,9 @@ import java.io.Serializable;
 @Getter
 @Setter
 public class Dispensa_Salida implements Serializable {
-    private Long id;
-    private Long prescripcionDetalleId;
-    private Short almacenId;
+    private Integer id;
+    private Integer prescripcionDetalleId;
+    private Integer almacenId;
     private Integer loteId;
     private BigDecimal cantidad;
     private LocalDateTime fecha;
