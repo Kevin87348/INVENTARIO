@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757838155975</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;Realize los empoints de proveedores y de medicamentos&quot;">
+      <option name="closed" value="true" />
+      <created>1757993331004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757993331004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +134,7 @@
     <MESSAGE value="&quot;Commit m&quot;" />
     <MESSAGE value="&quot;segunda prueba&quot;" />
     <MESSAGE value="&quot;workspace&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;workspace&quot;" />
+    <MESSAGE value="&quot;Realize los empoints de proveedores y de medicamentos&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Realize los empoints de proveedores y de medicamentos&quot;" />
   </component>
 </project>
