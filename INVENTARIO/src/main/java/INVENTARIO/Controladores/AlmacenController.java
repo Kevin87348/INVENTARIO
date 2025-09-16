@@ -1,6 +1,6 @@
-package INVENTARIO.controladores;
+package INVENTARIO.Controladores;
 
-import INVENTARIO.servicios.interfaces.IAlmacenService;
+import INVENTARIO.Servicios.interfaces.IAlmacenService;
 import INVENTARIO.dtos.Almacen.Almacen_Guardar;
 import INVENTARIO.dtos.Almacen.Almacen_Actualizar;
 import INVENTARIO.dtos.Almacen.Almacen_Salida;

@@ -1,11 +1,11 @@
-package INVENTARIO.servicios.implementaciones;
+package INVENTARIO.Servicios.implementaciones;
 
 import INVENTARIO.dtos.proveedor.ProveedorGuardar;
 import INVENTARIO.dtos.proveedor.ProveedorModificar;
 import INVENTARIO.dtos.proveedor.ProveedorSalida;
-import INVENTARIO.modelos.proveedor;
-import INVENTARIO.repositorios.IProveedorRepository;
-import INVENTARIO.servicios.interfaces.IProveedorService;
+import INVENTARIO.Modelos.proveedor;
+import INVENTARIO.Repositorios.IProveedorRepository;
+import INVENTARIO.Servicios.interfaces.IProveedorService;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
