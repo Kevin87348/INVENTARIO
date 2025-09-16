@@ -1,8 +1,8 @@
-package INVENTARIO.servicios.implementaciones;
+package INVENTARIO.Servicios.implementaciones;
 
-import INVENTARIO.modelos.Lotes_medicamentos;
-import INVENTARIO.repositorios.ILotesMedicamentosRepository;
-import INVENTARIO.servicios.interfaces.ILotesMedicamentoService;
+import INVENTARIO.Modelos.Lotes_medicamentos;
+import INVENTARIO.Repositorios.ILotesMedicamentosRepository;
+import INVENTARIO.Servicios.interfaces.ILotesMedicamentoService;
 import INVENTARIO.dtos.LotesMedicamentos.LoteMedicamento_Salida;
 import INVENTARIO.dtos.LotesMedicamentos.LoteMedicamentos_Actualizar;
 import INVENTARIO.dtos.LotesMedicamentos.LoteMedicamentos_Guardar;

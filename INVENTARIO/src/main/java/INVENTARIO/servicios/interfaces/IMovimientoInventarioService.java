@@ -1,4 +1,4 @@
-package INVENTARIO.servicios.interfaces;
+package INVENTARIO.Servicios.interfaces;
 
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventarioCambiarTipo;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Guardar;

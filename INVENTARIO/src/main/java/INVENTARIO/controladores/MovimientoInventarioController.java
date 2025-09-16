@@ -1,6 +1,6 @@
-package INVENTARIO.controladores;
+package INVENTARIO.Controladores;
 
-import INVENTARIO.servicios.interfaces.IMovimientoInventarioService;
+import INVENTARIO.Servicios.interfaces.IMovimientoInventarioService;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventarioCambiarTipo;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Guardar;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Modificar;

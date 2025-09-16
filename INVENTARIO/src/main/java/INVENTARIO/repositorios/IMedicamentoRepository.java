@@ -1,6 +1,6 @@
-package INVENTARIO.repositorios;
+package INVENTARIO.Repositorios;
 
-import INVENTARIO.modelos.medicamento;
+import INVENTARIO.Modelos.medicamento;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IMedicamentoRepository  extends JpaRepository<medicamento, Integer>{

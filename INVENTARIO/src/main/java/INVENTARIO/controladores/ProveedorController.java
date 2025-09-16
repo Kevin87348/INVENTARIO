@@ -1,10 +1,10 @@
-package INVENTARIO.controladores;
+package INVENTARIO.Controladores;
 
 
 import INVENTARIO.dtos.proveedor.ProveedorGuardar;
 import INVENTARIO.dtos.proveedor.ProveedorModificar;
 import INVENTARIO.dtos.proveedor.ProveedorSalida;
-import INVENTARIO.servicios.interfaces.IProveedorService;
+import INVENTARIO.Servicios.interfaces.IProveedorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
