@@ -4,7 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed57c6a3-041d-4526-bddf-741bd35de573" name="Changes" comment="" />
+    <list default="true" id="ed57c6a3-041d-4526-bddf-741bd35de573" name="Changes" comment="&quot;para descargar cambios de la main&quot;">
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/controladores/MedicamentoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/controladores/ProveedorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/medicamento/MedicamentoGuardar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/medicamento/MedicamentoModificar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/medicamento/MedicamentoSalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/proveedor/ProveedorGuardar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/proveedor/ProveedorModificar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/dtos/proveedor/ProveedorSalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/modelos/medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/modelos/proveedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/repositorios/IMedicamentoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/repositorios/IProveedorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/servicios/implementaciones/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/servicios/implementaciones/ProveedorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/servicios/interfaces/IMedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INVENTARIO/src/main/java/INVENTARIO/servicios/interfaces/IProveedorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/INVENTARIO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Controladores/Proveedores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Modelos/Almacen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Modelos/Dispensa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Modelos/Lotes_medicamentos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Modelos/Proveedores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Repositorios/IAlmacenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Repositorios/IDispensaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Repositorios/ILotesMedicamentosRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Repositorios/Proveedores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Servicios/implementaciones/LotesMedicamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Servicios/interfaces/IAlmacenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Servicios/interfaces/IDispensaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/Servicios/interfaces/ILotesMedicamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/config/ModelMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Almacen/Almacen_Actualizar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Almacen/Almacen_CambiarEstado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Almacen/Almacen_Guardar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Almacen/Almacen_Salida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Dispensa/Dispensa_Actualizar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Dispensa/Dispensa_Guardar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Dispensa/Dispensa_Salida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/LotesMedicamentos/LoteMedicamento_Salida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/LotesMedicamentos/LoteMedicamentos_Actualizar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/LotesMedicamentos/LoteMedicamentos_Guardar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/java/dtos/Proveedores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/INVENTARIO/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/INVENTARIO/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +60,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +85,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Kevin87348/INVENTARIO.git&quot;,
-    &quot;accountId&quot;: &quot;2532d2df-b460-455f-abb1-66a7c4ebb6e0&quot;
+    &quot;accountId&quot;: &quot;d4c52123-c51c-4dce-9a14-4128a09c780c&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,6 +98,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.InventarioApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InventarioApplicationTests.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
