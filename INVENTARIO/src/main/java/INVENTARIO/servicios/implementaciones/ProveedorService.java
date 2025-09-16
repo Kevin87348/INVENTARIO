@@ -5,7 +5,7 @@ import INVENTARIO.dtos.proveedor.ProveedorModificar;
 import INVENTARIO.dtos.proveedor.ProveedorSalida;
 import INVENTARIO.modelos.proveedor;
 import INVENTARIO.repositorios.IProveedorRepository;
-import INVENTARIO.Servicios.interfaces.IProveedorService;
+import INVENTARIO.servicios.interfaces.IProveedorService;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

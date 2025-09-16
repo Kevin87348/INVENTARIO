@@ -2,7 +2,7 @@ package INVENTARIO.servicios.implementaciones;
 
 import INVENTARIO.modelos.MovimientoInventario;
 import INVENTARIO.repositorios.IMovimientoInventarioRepository;
-import INVENTARIO.Servicios.interfaces.IMovimientoInventarioService;
+import INVENTARIO.servicios.interfaces.IMovimientoInventarioService;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventarioCambiarTipo;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Guardar;
 import INVENTARIO.dtos.movimientoInventario.MovimientoInventario_Modificar;

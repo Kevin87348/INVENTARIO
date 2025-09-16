@@ -6,7 +6,7 @@ import INVENTARIO.dtos.medicamento.MedicamentoModificar;
 import INVENTARIO.dtos.medicamento.MedicamentoSalida;
 import INVENTARIO.modelos.medicamento;
 import INVENTARIO.repositorios.IMedicamentoRepository;
-import INVENTARIO.Servicios.interfaces.IMedicamentoService;
+import INVENTARIO.servicios.interfaces.IMedicamentoService;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -2,7 +2,7 @@ package INVENTARIO.servicios.implementaciones;
 
 import INVENTARIO.modelos.Almacen;
 import INVENTARIO.repositorios.IAlmacenRepository;
-import INVENTARIO.Servicios.interfaces.IAlmacenService;
+import INVENTARIO.servicios.interfaces.IAlmacenService;
 import INVENTARIO.dtos.Almacen.Almacen_CambiarEstado;
 import INVENTARIO.dtos.Almacen.Almacen_Guardar;
 import INVENTARIO.dtos.Almacen.Almacen_Actualizar;

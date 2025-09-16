@@ -3,7 +3,7 @@ package INVENTARIO.controladores;
 import INVENTARIO.dtos.Dispensa.Dispensa_Actualizar;
 import INVENTARIO.dtos.Dispensa.Dispensa_Guardar;
 import INVENTARIO.dtos.Dispensa.Dispensa_Salida;
-import INVENTARIO.Servicios.interfaces.IDispensaService;
+import INVENTARIO.servicios.interfaces.IDispensaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
