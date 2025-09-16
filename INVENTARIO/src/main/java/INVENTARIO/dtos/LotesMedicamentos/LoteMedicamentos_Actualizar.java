@@ -1,0 +1,17 @@
+package INVENTARIO.dtos.LotesMedicamentos;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.io.Serializable;
+import java.sql.Date;
+
+@Getter
+@Setter
+public class LoteMedicamentos_Actualizar implements Serializable {
+    private Integer id;
+    private String codigoLote;
+    private Date fechaVencimiento;
+    private String observaciones;
+}
+
