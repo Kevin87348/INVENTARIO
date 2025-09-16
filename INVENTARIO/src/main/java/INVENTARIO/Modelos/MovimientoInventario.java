@@ -25,9 +25,9 @@ public class MovimientoInventario {
     @JoinColumn(name = "almacenId")
     private Almacen almacen;
 
-//    @ManyToOne
-//    @JoinColumn(name = "usuarioId")
-//    private Usuario usuario;
+    @ManyToOne
+    @JoinColumn(name = "usuarioId")
+    private Usuario usuario;
 
     private String observacion;
 
