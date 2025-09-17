@@ -10,7 +10,7 @@ import java.util.Date;
 @Setter
 
 @Entity
-@Table(name = "MovimientoInventario")
+@Table(name = "movimientos_inventario")
 public class MovimientoInventario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

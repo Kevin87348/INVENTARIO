@@ -56,7 +56,7 @@ public class LotesMedicamentosController {
         return ResponseEntity.noContent().build(); // ✅ respuesta estándar para DELETE
     }
 
-    @GetMapping("/medicamento/{medicamentoId}")
+    @GetMapping("/Medicamento/{medicamentoId}")
     public ResponseEntity<List<LoteMedicamento_Salida>> obtenerPorMedicamento(@PathVariable Integer medicamentoId) {
         List<LoteMedicamento_Salida> resultado = lotesMedicamentoService.obtenerPorMedicamentoId(medicamentoId);
         return resultado.isEmpty() ? ResponseEntity.notFound().build() : ResponseEntity.ok(resultado);

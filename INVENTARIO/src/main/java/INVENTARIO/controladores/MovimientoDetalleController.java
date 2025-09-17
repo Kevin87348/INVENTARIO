@@ -54,7 +54,7 @@ public class MovimientoDetalleController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping("/medicamento/{id}")
+    @GetMapping("/Medicamento/{id}")
     public ResponseEntity<List<MovimientoDetalle_Salida>> mostrarPorMedicamento(@PathVariable Integer id){
         List<MovimientoDetalle_Salida> movimientoDetalle = movimientoDetalleService.obtenerPorMedicamentoId(id);
         if(!movimientoDetalle.isEmpty()){

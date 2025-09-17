@@ -4,7 +4,7 @@ package INVENTARIO.servicios.implementaciones;
 import INVENTARIO.dtos.medicamento.MedicamentoGuardar;
 import INVENTARIO.dtos.medicamento.MedicamentoModificar;
 import INVENTARIO.dtos.medicamento.MedicamentoSalida;
-import INVENTARIO.modelos.medicamento;
+import INVENTARIO.modelos.Medicamento;
 import INVENTARIO.repositorios.IMedicamentoRepository;
 import INVENTARIO.servicios.interfaces.IMedicamentoService;
 import org.modelmapper.ModelMapper;
@@ -31,15 +31,15 @@ public class MedicamentoService implements IMedicamentoService {
 
     @Override
     public List<MedicamentoSalida> obtenerTodos() {
-        List<medicamento> medicamentos = medicamentoRepository.findAll();
-        return medicamentos.stream()
+        List<Medicamento> Medicamentos = medicamentoRepository.findAll();
+        return Medicamentos.stream()
                 .map(Medicamento -> modelMapper.map(Medicamento, MedicamentoSalida.class))
                 .collect(Collectors.toList());
     }
 
     @Override
     public Page<MedicamentoSalida> obtenerTodosPaginados(Pageable pageable) {
-        Page<medicamento> page = medicamentoRepository.findAll(pageable);
+        Page<Medicamento> page = medicamentoRepository.findAll(pageable);
 
         List<MedicamentoSalida> medicamentoDto = page.stream()
                 .map(Medicamento -> modelMapper.map(Medicamento, MedicamentoSalida.class))
@@ -55,13 +55,13 @@ public class MedicamentoService implements IMedicamentoService {
 
     @Override
     public MedicamentoSalida crear(MedicamentoGuardar medicamentoGuardar) {
-        medicamento Medicamento =medicamentoRepository.save(modelMapper.map(medicamentoGuardar, medicamento.class));
+        Medicamento Medicamento =medicamentoRepository.save(modelMapper.map(medicamentoGuardar, Medicamento.class));
         return modelMapper.map(Medicamento, MedicamentoSalida.class);
     }
 
     @Override
     public MedicamentoSalida editar(MedicamentoModificar medicamentoSalida) {
-        medicamento Medicamento =medicamentoRepository.save(modelMapper.map(medicamentoSalida, medicamento.class));
+        Medicamento Medicamento =medicamentoRepository.save(modelMapper.map(medicamentoSalida, Medicamento.class));
         return modelMapper.map(Medicamento, MedicamentoSalida.class);
     }
 

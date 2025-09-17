@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Getter
 @Setter
 
@@ -18,15 +20,25 @@ public class MovimientoDetalle {
 
     private double costoUnitario;
 
+    private LocalDateTime fecha;
+
+    private Integer usuarioId;
+
+
     @ManyToOne
-    @JoinTable(name = "movimiento_id")
+    @JoinColumn(name = "movimiento_id")
     private MovimientoInventario movimientoInventario;
 
     @ManyToOne
-    @JoinTable(name = "medicamento_id")
-    private medicamento medicamento;
+    @JoinColumn(name = "medicamento_id")
+    private Medicamento medicamento;
 
     @ManyToOne
-    @JoinTable(name = "lote_id")
+    @JoinColumn(name = "lote_id")
     private Lotes_medicamentos lotesMedicamentos;
+
+    @ManyToOne
+    @JoinColumn(name = "almacen_id")
+    private Almacen almacen;
+
 }

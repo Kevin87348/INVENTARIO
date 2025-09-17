@@ -26,5 +26,5 @@ public class Inventario {
 
     @ManyToOne
     @JoinTable(name = "medicamento_id")
-    private medicamento medicamento;
+    private Medicamento medicamento;
 }

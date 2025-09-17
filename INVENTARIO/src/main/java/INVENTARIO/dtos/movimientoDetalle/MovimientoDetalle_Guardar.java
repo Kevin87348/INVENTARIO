@@ -4,17 +4,41 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
-@Setter
 @Getter
+@Setter
 public class MovimientoDetalle_Guardar implements Serializable {
     private double cantidad;
-
     private double costoUnitario;
 
     private Integer movimientoInventarioId;
-
     private Integer medicamentoId;
+    private Integer loteMedicamentoId; // corregido nombre
 
-    private Integer lotes_medicamentosId;
+    private Integer almacenId;         //  faltaba
+    private LocalDateTime fecha;       //  faltaba
+    private Integer usuarioId;         // faltaba
 }
+
+
+//package INVENTARIO.dtos.movimientoDetalle;
+//
+//import lombok.Getter;
+//import lombok.Setter;
+//
+//import java.io.Serializable;
+//
+//@Setter
+//@Getter
+//public class MovimientoDetalle_Guardar implements Serializable {
+//    private double cantidad;
+//
+//    private double costoUnitario;
+//
+//    private Integer movimientoInventarioId;
+//
+//    private Integer medicamentoId;
+//
+//    private Integer lotes_medicamentosId;
+//}

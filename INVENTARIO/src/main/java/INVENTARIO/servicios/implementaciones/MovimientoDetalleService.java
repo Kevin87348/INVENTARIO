@@ -1,7 +1,7 @@
 package INVENTARIO.servicios.implementaciones;
 
-import INVENTARIO.modelos.MovimientoDetalle;
-import INVENTARIO.repositorios.IMovimientoDetalleRepository;
+import INVENTARIO.modelos.*;
+import INVENTARIO.repositorios.*;
 import INVENTARIO.servicios.interfaces.IMovimientoDetalleService;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Guardar;
 import INVENTARIO.dtos.movimientoDetalle.MovimientoDetalle_Modificar;
@@ -24,6 +24,19 @@ public class MovimientoDetalleService implements IMovimientoDetalleService{
 
     @Autowired
     private ModelMapper modelMapper;
+
+    @Autowired
+    private IMedicamentoRepository medicamentoRepository;
+
+    @Autowired
+    private ILotesMedicamentosRepository loteMedicamentoRepository;
+
+    @Autowired
+    private IAlmacenRepository almacenRepository;
+
+    @Autowired
+    private IMovimientoInventarioRepository movimientoInventarioRepository;
+
 
     @Override
     public List<MovimientoDetalle_Salida> obtenerTodos() {
@@ -76,13 +89,39 @@ public class MovimientoDetalleService implements IMovimientoDetalleService{
                 .map(movimientoDetalle -> modelMapper.map(movimientoDetalle, MovimientoDetalle_Salida.class))
                 .collect(Collectors.toList());
     }
-    @Override
-    public MovimientoDetalle_Salida crear(MovimientoDetalle_Guardar movimientoDetalleGuardar) {
-        MovimientoDetalle movimientoDetalle = modelMapper.map(movimientoDetalleGuardar, MovimientoDetalle.class);
-        movimientoDetalle.setId(null);
 
-        return modelMapper.map(movimientoDetalleRepository.save(movimientoDetalle), MovimientoDetalle_Salida.class);
+    @Override
+    public MovimientoDetalle_Salida crear(MovimientoDetalle_Guardar dto) {
+        // Buscar entidades relacionadas
+        Medicamento medicamento = medicamentoRepository.findById(dto.getMedicamentoId())
+                .orElseThrow(() -> new RuntimeException("Medicamento no encontrado"));
+
+        Lotes_medicamentos lote = loteMedicamentoRepository.findById(dto.getLoteMedicamentoId())
+                .orElseThrow(() -> new RuntimeException("Lote de Medicamento no encontrado"));
+
+        Almacen almacen = almacenRepository.findById(dto.getAlmacenId())
+                .orElseThrow(() -> new RuntimeException("Almacén no encontrado"));
+
+        MovimientoInventario movimientoInventario = movimientoInventarioRepository.findById(dto.getMovimientoInventarioId())
+                .orElseThrow(() -> new RuntimeException("Movimiento de inventario no encontrado"));
+
+        // Crear entidad MovimientoDetalle
+        MovimientoDetalle movimientoDetalle = new MovimientoDetalle();
+        movimientoDetalle.setMedicamento(medicamento);
+        movimientoDetalle.setLotesMedicamentos(lote);
+        movimientoDetalle.setAlmacen(almacen);
+        movimientoDetalle.setMovimientoInventario(movimientoInventario);
+        movimientoDetalle.setCantidad(dto.getCantidad());
+        movimientoDetalle.setFecha(dto.getFecha());
+        movimientoDetalle.setUsuarioId(dto.getUsuarioId());
+
+        // Guardar y devolver DTO de salida
+        MovimientoDetalle guardado = movimientoDetalleRepository.save(movimientoDetalle);
+        return modelMapper.map(guardado, MovimientoDetalle_Salida.class);
     }
+
+
+
 
     @Override
     public MovimientoDetalle_Salida editar(MovimientoDetalle_Modificar movimientoDetalleModificar) {

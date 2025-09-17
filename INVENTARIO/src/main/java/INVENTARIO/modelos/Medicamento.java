@@ -7,10 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "medicamento")
+@Table(name = "Medicamento")
 
 
-public class medicamento {
+public class Medicamento {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Integer id;
